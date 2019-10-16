@@ -1,0 +1,34 @@
+<html>
+    <body>
+        <div class="header">HEADER </div>
+        <div class="sidebar">SIDEBAR </div>
+        <div class="main">MAIN </div>
+        <div class="footer">FOOTER </div>
+    </body>
+    <style>
+        body {
+            display: grid;
+            grid-template-areas:
+                'header header header header'
+                'sidebar sidebar main main'
+                'footer footer footer footer'
+                ;
+            }
+        .header {
+            grid-area: header;
+            background:red;
+        }
+        .sidebar {
+            grid-area: header;
+            background: lightblue;
+        }
+        .main {
+            grid-area: header;
+            background: green;
+        }
+        .footer {
+            grid-area: header;
+            background:yellow;
+        }
+    </style>
+</html>
