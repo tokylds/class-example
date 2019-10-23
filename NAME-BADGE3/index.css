@@ -1,0 +1,42 @@
+body {
+  background: grey;
+}
+
+.badge {
+    border: 1px solid red;
+    background: red;
+    height: flex;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.hello {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 50px;
+   
+    text-align: center;
+     }
+
+.mynameis {
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+
+  text-align: center;
+   }
+
+.footer {
+  padding: 10px;
+    
+  }
+
+.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    vertical-align: center;
+    font-size: 300%;
+    height: 10%;
+    border: 1px solid red;
+    background: white;
+    }
