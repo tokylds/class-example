@@ -11,3 +11,8 @@ function AddName(){
     nameElement.textContent = name;
 }
 
+newNameElement.addEventListener('keypress', function(e) {
+    if(e.keyCode ===13) {
+            AddName();
+        }
+    });
